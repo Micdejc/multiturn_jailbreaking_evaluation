@@ -15,6 +15,14 @@ Reliable evaluation of multi-turn jailbreaking attacks is a critical yet unresol
 
 This repository introduces an **open-source, semantic similarity–based evaluation framework** for multi-turn jailbreaking attacks, designed to deliver **trustworthy, human-correlated, and low–false-negative evaluation** suitable for **high-stakes cybersecurity contexts**.
 
+### Core Idea
+
+Instead of asking an LLM *“Is this a jailbreak?”*, this framework asks:
+
+> **“How semantically close is the model’s response to a disallowed intent, as judged by humans?”**
+
+We treat **human judgment as the ground truth signal** and design semantic similarity metrics that closely approximate it—across **multiple turns**, **implicit violations**, and **linguistic obfuscation**.
+
 This study was conducted by [Michael Tchuindjang](https://github.com/Micdejc), [Nathan Duran](https://github.com/NathanDuran), [Phil Legg](https://github.com/pa-legg), and [Faiza Medjek](https://sciprofiles.com/profile/3778378) as part of a PhD research project in Cybersecurity and Artificial Intelligence, supported by a studentship at the University of the West of England (UWE Bristol), UK.
 
 ---
