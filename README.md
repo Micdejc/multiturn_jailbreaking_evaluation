@@ -27,6 +27,21 @@ This study was conducted by [Michael Tchuindjang](https://github.com/Micdejc), [
 
 ---
 
+## Updates
+- (XXXX-XX-XX) Insert any update here...
+- (2026-01-08) Released the first version of the paper's dataset on GitHub.
+
+
+## Table of Contents
+
+- [LLM Evaluators](#llmevaluators)
+- [Experiments](#experiments)
+- [Reproducibility](#reproducibility)
+- [Citation](#Citation) 
+- [License](#license)
+
+---
+
 ## 🎯 Motivation
 
 ### Limitations of LLM-as-a-Judge Evaluation
@@ -156,14 +171,14 @@ These results demonstrate that **semantic similarity provides a more reliable an
 
 ---
 
-## ⚠️ Ethical & Security Notice
+## Ethical & Security Notice
 
 This repository is intended **strictly for defensive AI safety research**.  
 It does **not** provide tools to generate, optimize, or deploy jailbreaking attacks.
 
 ---
 
-## 📌 Citation
+## Citation
 
 If you use this framework in your research, please cite:
 
@@ -175,3 +190,7 @@ If you use this framework in your research, please cite:
   note={AI Safety and Cybersecurity Research}
 }
 
+
+## License
+Copyright (c) 2025, Michael Tchuindjang 
+All rights reserved.
