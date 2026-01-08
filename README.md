@@ -56,14 +56,12 @@ Evaluations were conducted on **widely used adversarial benchmarks**:
 - **[AdvBench](https://github.com/llm-attacks/llm-attacks)**
 - **[HarmBench](https://github.com/centerforaisafety/HarmBench)**
 
-### How to Run
+### How to Run:
 - To moderate LLM responses for jailbreaking using automated methods, refer to the instructions provided in [`run_moderator.ipynb`](run_moderator.ipynb) file.
 
 - To moderate LLM responses for jailbreaking using semantic similarities, refer to the instructions provided in [`run_evaluator.ipynb`](run_evaluator.ipynb) file.
   
 A few examples of our experimental results are included in [`examples`](examples) folder.
-
-**Notice:** If you would like to learn more about the implementation of the *Grammatical Mirage Attack*, feel free to [contact me](mailto:micdejc@gmail.com).
 
 ### Key Findings
 
