@@ -33,6 +33,7 @@ This study was conducted by [Michael Tchuindjang](https://github.com/Micdejc), [
 
 
 ## Table of Contents
+- [Installation](#installation)
 - [Human Annotation](#human-annotation)
 - [LLM Evaluators](#llm-evaluators)
 - [Experimental Results](#experimental-results)
@@ -41,6 +42,13 @@ This study was conducted by [Michael Tchuindjang](https://github.com/Micdejc), [
 - [License](#license)
 
 ---
+## Installation
+
+Please make sure to install the following python librairies as dependencies to run the program:
+
+```bash
+pip install jupyter pandas sentence-transformers xgboostpip
+```
 
 ## Human Annotation
 The ground truth for our experiments was created by a team of cybersecurity experts. They reviewed and provided judgments on a curated set of experimental conversations to ensure high-quality, reliable labels.  
