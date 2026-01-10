@@ -134,22 +134,8 @@ class MultiTurnModerator():
     # This function does not return any value but will create a new file, named according to the output_file variable, which will contain the LLM judge moderation for LLM responses
     def moderate_llm_responses(self, is_targeted_llm_open=True, targeted_llm_index=0, nb_iterations=1, is_past=False, min_row=None, max_row=None):
 
-        # Depending on the parameter of the targeted LLM We look for the csv file to moderate
-        if is_past:
-            suffix = '_past.csv'
-        else:
-            suffix = '_present.csv'
-
-        # Depending on the targeted LLM (open or close), we select the corresponding list
-        if is_targeted_llm_open:
-            llm_list = LLMAggregator.OPEN_LLM_VERSIONS
-        else:
-            llm_list = LLMAggregator.CLOSE_LLM_VERSIONS
-
-        target_model = llm_list[targeted_llm_index]    
-        target_model_name = target_model["MODEL_NAME"]
-            
-        csv_file = LLMAggregator.TEST_FOLDER + '' + target_model_name + '/' + target_model_name +'_attack_N_'+ str(nb_iterations) + suffix
+        # We get the relative path of the targeted models depending of the parameters   
+        csv_file = self.get_input_file(is_targeted_llm_open, targeted_llm_index, nb_iterations, is_past)
         
         try:
             # Read the CSV file into a pandas DataFrame
@@ -252,22 +238,8 @@ class MultiTurnModerator():
     # This function return informations related to the success rates of jailbreaking
     def calculate_success_rate(self, is_targeted_llm_open=True, targeted_llm_index=0, nb_iterations=1, is_past=False):
 
-        # Depending on the parameter of the targeted LLM We look for the csv file to moderate
-        if is_past:
-            suffix = '_past.csv'
-        else:
-            suffix = '_present.csv'
-
-        # Depending on the targeted LLM (open or close), we select the corresponding list
-        if is_targeted_llm_open:
-            llm_list = LLMAggregator.OPEN_LLM_VERSIONS
-        else:
-            llm_list = LLMAggregator.CLOSE_LLM_VERSIONS
-
-        target_model = llm_list[targeted_llm_index]    
-        target_model_name = target_model["MODEL_NAME"]
-            
-        csv_file = LLMAggregator.TEST_FOLDER + '' + target_model_name + '/' + target_model_name +'_attack_N_'+ str(nb_iterations) + suffix
+        # We get the relative path of the targeted models depending of the parameters   
+        csv_file = self.get_input_file(is_targeted_llm_open, targeted_llm_index, nb_iterations, is_past)
         
         try:
             # Read the CSV file
@@ -315,7 +287,7 @@ class MultiTurnModerator():
 
     # Function that calculates the jailbreaking success rate per cyber subtopic based on the judgments of a moderator (Human or LLM) from a CSV file.
     # Input:
-    # moderator_index: Index of the Column name of the LLM moderator. It's 0 by default
+    # moderator_index: Index of the Column name of the LLM moderator. It's 0 (Human moderation) by default
     # is_targeted_llm_open: Indicates whether the targeted LLM is open or close. It's open-source by default
     # targeted_llm_index: Index of the targeted LLM from the List of targets. It's 0 by default
     # nb_iterations: number of iterations to consider. It's 1 (single turn moderation) by default
@@ -324,22 +296,8 @@ class MultiTurnModerator():
     # This function return informations related to the success rates per cyber subtopic of jailbreaking
     def calculate_success_rate_per_cybersubtopic(self, moderator_index=0, is_targeted_llm_open=True, targeted_llm_index=0, nb_iterations=1, is_past=False):
 
-        # Depending on the parameter of the targeted LLM We look for the csv file to moderate
-        if is_past:
-            suffix = '_past.csv'
-        else:
-            suffix = '_present.csv'
-
-        # Depending on the targeted LLM (open or close), we select the corresponding list
-        if is_targeted_llm_open:
-            llm_list = LLMAggregator.OPEN_LLM_VERSIONS
-        else:
-            llm_list = LLMAggregator.CLOSE_LLM_VERSIONS
-
-        target_model = llm_list[targeted_llm_index]    
-        target_model_name = target_model["MODEL_NAME"]
-            
-        csv_file = LLMAggregator.TEST_FOLDER + '' + target_model_name + '/' + target_model_name +'_attack_N_'+ str(nb_iterations) + suffix
+        # We get the relative path of the targeted models depending of the parameters   
+        csv_file = self.get_input_file(is_targeted_llm_open, targeted_llm_index, nb_iterations, is_past)
         
         try:
             # Read the CSV file
@@ -385,4 +343,33 @@ class MultiTurnModerator():
             print(f"An error occurred: {e}")
             print("Full traceback:")
             traceback.print_exc()  # This will print the detailed traceback
+
+
+
+    # Function that retreive the input CSV file from the selected parameters.
+    # Input:
+    # is_targeted_llm_open: Indicates whether the targeted LLM is open or close. It's open-source by default
+    # targeted_llm_index: Index of the targeted LLM from the List of targets. It's 0 by default
+    # nb_iterations: number of iterations to consider. It's 1 (single turn moderation) by default
+    # is_past: Indicates whether past or present tense reformulation is considered. It's False (present tense reformulation) by default
+    # Output:
+    # This function return the relative path of the input file of the selected targeted model
+    def get_input_file(self, is_targeted_llm_open=True, targeted_llm_index=0, nb_iterations=1, is_past=False):
+        
+        # Depending on the parameter of the targeted LLM We look for the csv file to moderate
+        if is_past:
+            suffix = '_past.csv'
+        else:
+            suffix = '_present.csv'
+
+        # Depending on the targeted LLM (open or close), we select the corresponding list
+        if is_targeted_llm_open:
+            llm_list = LLMAggregator.OPEN_LLM_VERSIONS
+        else:
+            llm_list = LLMAggregator.CLOSE_LLM_VERSIONS
+
+        target_model = llm_list[targeted_llm_index]    
+        target_model_name = target_model["MODEL_NAME"]
+            
+        return LLMAggregator.TEST_FOLDER + '' + target_model_name + '/' + target_model_name +'_attack_N_'+ str(nb_iterations) + suffix
 
