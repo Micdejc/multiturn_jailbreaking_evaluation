@@ -36,6 +36,7 @@ This study was conducted by [Michael Tchuindjang](https://github.com/Micdejc), [
 - [Installation](#installation)
 - [Human Annotation](#human-annotation)
 - [LLM Evaluators](#llm-evaluators)
+- [Embedding models](#embedding-models)
 - [Experimental Results](#experimental-results)
 - [Reproducibility](#reproducibility)
 - [Citation](#Citation) 
@@ -61,6 +62,10 @@ The shared labeling guidelines and rules followed by the experts can be found [h
 Well-known LLM evaluators for safety evaluation were considered during the experiments, including the open-source [Llama Guard 3](https://huggingface.co/meta-llama/Llama-Guard-3-8B) and the closed-source GPT-4.1.
 
 The targeted models were consistent with [*Grammatical Mirage Attack*](https://github.com/Micdejc/llm_multiturn_attacks/). Both open- and closed-source models were tested via Application Programming Interface (API) calls: closed-source models through paid subscriptions and open-source models via [LM Studio](https://lmstudio.ai/).
+
+## Embedding models
+
+The following sentence-embedding model were considered during the experimentation: [MiniLM-L6-v2](https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2), [MPNet-base-v2](https://huggingface.co/sentence-transformers/all-mpnet-base-v2) and [RoBERTa-large-v1](https://huggingface.co/sentence-transformers/all-roberta-large-v1) 
 
 ---
 
