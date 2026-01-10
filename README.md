@@ -65,7 +65,7 @@ The targeted models were consistent with [*Grammatical Mirage Attack*](https://g
 
 ## Embedding models
 
-The following sentence-embedding model were considered during the experimentation: [MiniLM-L6-v2](https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2), [MPNet-base-v2](https://huggingface.co/sentence-transformers/all-mpnet-base-v2) and [RoBERTa-large-v1](https://huggingface.co/sentence-transformers/all-roberta-large-v1) 
+The following sentence-embedding models were considered during the experimentation: [MiniLM-L6-v2](https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2), [MPNet-base-v2](https://huggingface.co/sentence-transformers/all-mpnet-base-v2) and [RoBERTa-large-v1](https://huggingface.co/sentence-transformers/all-roberta-large-v1) 
 
 ---
 
