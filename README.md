@@ -119,7 +119,7 @@ If you use this framework in your research, please cite:
 ```bibtex
 @misc{tchuindjang2026semanticjailbreakeval,
   title={Human-Correlated Semantic Evaluation of Multi-Turn Jailbreaking Attacks},
-  author={Tchuindjang, Michael},
+  author={Tchuindjang, Michael and Duran, Nathan. and Legg, Phil. and Medjek, Faiza.},
   year={2026},
   note={AI Safety and Cybersecurity Research}
 }
