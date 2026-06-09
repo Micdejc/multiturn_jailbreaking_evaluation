@@ -71,8 +71,8 @@ The following sentence-embedding models were considered during the experimentati
 ## Attack Strategies
 Several multi-turn adversarial strategies were employed:
 - [*Grammatical Mirage Attack*](https://github.com/Micdejc/llm_multiturn_attacks/)
-- Crescendo
-- TEMPEST
+- [Crescendo](https://huggingface.co/papers/2404.01833)
+- [SIEGE/TEMPEST](https://arxiv.org/abs/2503.10619)
 ---
 
 ## Experimental Results
