@@ -81,6 +81,7 @@ Evaluations were conducted on **widely used adversarial benchmarks**:
 
 - **[AdvBench](https://github.com/llm-attacks/llm-attacks)**
 - **[HarmBench](https://github.com/centerforaisafety/HarmBench)**
+- **[CyMulTenSet](https://huggingface.co/datasets/Micdejc/cymultenset)**
 
 ## How to Run
 
