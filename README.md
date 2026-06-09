@@ -107,7 +107,7 @@ A few sample results from our experiments are available in the [`examples`](exam
 <img src="assets/inference_time_dual_axis.png" alt="inference time analysis" style="width: 100%; min-width: 300px; display: block; margin: auto;">
 </p>
 
-These results demonstrate that **semantic similarity provides a more reliable and human-aligned evaluation signal than LLM judges**.
+These results demonstrate that RefusalGuard is a **cost-effective and reproducible alternative** to human-aligned jailbreak evaluation.
 
 ---
 ## Reproducibility
