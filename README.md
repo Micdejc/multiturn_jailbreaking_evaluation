@@ -37,6 +37,7 @@ This study was conducted by [Michael Tchuindjang](https://github.com/Micdejc), [
 - [Human Annotation](#human-annotation)
 - [LLM Evaluators](#llm-evaluators)
 - [Embedding models](#embedding-models)
+- [Attack Strategies](#attack-strategies)
 - [Experimental Results](#experimental-results)
 - [Reproducibility](#reproducibility)
 - [Citation](#Citation) 
@@ -59,14 +60,19 @@ The shared labeling guidelines and rules followed by the experts can be found [h
 ---
 
 ## LLM Evaluators
-Well-known LLM evaluators for safety evaluation were considered during the experiments, including the open-source [Llama Guard 3](https://huggingface.co/meta-llama/Llama-Guard-3-8B) and the closed-source GPT-4.1.
+Well-known LLM evaluators for safety evaluation were considered during the experiments, including the open-source [Llama Guard 3](https://huggingface.co/meta-llama/Llama-Guard-3-8B) and the closed-source GPT-4.1 & GPT-5.2.
 
-The targeted models were consistent with [*Grammatical Mirage Attack*](https://github.com/Micdejc/llm_multiturn_attacks/). Both open- and closed-source models were tested via Application Programming Interface (API) calls: closed-source models through paid subscriptions and open-source models via [LM Studio](https://lmstudio.ai/).
+Regarding the targeted models, both open- and closed-source models were tested via Application Programming Interface (API) calls: closed-source models through paid subscriptions and open-source models via [LM Studio](https://lmstudio.ai/).
 
 ## Embedding models
 
 The following sentence-embedding models were considered during the experimentation: [MiniLM-L6-v2](https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2), [MPNet-base-v2](https://huggingface.co/sentence-transformers/all-mpnet-base-v2) and [RoBERTa-large-v1](https://huggingface.co/sentence-transformers/all-roberta-large-v1) 
 
+## Attack Strategies
+Several multi-turn adversarial strategies were employed:
+- [*Grammatical Mirage Attack*](https://github.com/Micdejc/llm_multiturn_attacks/)
+- Crescendo
+- TEMPEST
 ---
 
 ## Experimental Results
