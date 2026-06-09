@@ -7,7 +7,7 @@
 [![Python 3.12+](https://img.shields.io/badge/python-3.12+-blue.svg)](https://www.python.org/downloads/release/python-31211/)
 [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
 
-# A Semantic Similarity-Based Approach for Human-Aligned Multi-Turn Jailbreaking Evaluation in Cybersecurity
+# RefusalGuard: A One-Class Embedding-Based Method for Evaluating Multi-Turn Jailbreaking in Cybersecurity
 
 ## Overview
 
@@ -19,7 +19,7 @@ This repository introduces an **open-source, semantic similarity–based evaluat
 
 Instead of asking an LLM *“Is this a jailbreak?”*, this framework asks:
 
-> **“How semantically close is the model’s response to a disallowed intent, as judged by humans?”**
+> **“How semantically close is the model’s response to a disallowed intent, as assessed by human evaluators based on refusal behavior?”**
 
 We treat **human judgment as the ground truth signal** and design semantic similarity metrics that closely approximate it—across **multiple turns**, **implicit violations**, and **linguistic obfuscation**.
 
