@@ -98,8 +98,8 @@ A few sample results from our experiments are available in the [`examples`](exam
 
 ### Key Findings
 
-- 🚀 Outperforms **GPT-5** and **GPT-4** on jailbreak detection in linguistic adversarial settings.
-- 📉 Reduces **inference costs by up to 3.7×** compared to embedding-based baselines.
+- 🚀 RefusalGuard outperforms **GPT-5** and **GPT-4** on jailbreak detection in linguistic adversarial settings.
+- 📉 RefusalGuard Reduces **inference costs by up to 3.7×** compared to embedding-based baselines.
 
 <p align="center" width="100%">
 <img src="assets/confusion_matrices_present_past_2x4.png" alt="CONFUSION MATRIXES" style="width: 100%; min-width: 300px; display: block; margin: auto;">
