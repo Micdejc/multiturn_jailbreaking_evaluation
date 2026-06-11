@@ -15,23 +15,6 @@ from llm_moderator import LLMModerator
 
 
 """   
-
-Copyright (c) 2025, Michael Tchuindjang
-All rights reserved.
-
-This code was developed as part of a PhD research project in Cybersecurity and Artificial Intelligence, 
-supported by a studentship at the University of the West of England (UWE Bristol).
-
-Use of this software is permitted for academic, educational, and research purposes.  
-For any commercial use or redistribution, please contact the author for permission.
-
-Disclaimer:
-In no event shall the author or UWE be liable for any claim, damages, or other liability arising from the use of this code.
-
-Acknowledgment of the author and the research context is appreciated in any derivative work or publication.
-
-
-
 INFO ABOUT THIS SOURCE CODE
 
 This source code provides functions to moderate the output of a Large Language Models (LLM) using another LLM as moderator.
