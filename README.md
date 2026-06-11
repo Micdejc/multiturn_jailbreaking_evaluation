@@ -127,7 +127,7 @@ If you use this framework in your research, please cite:
 
 ```bibtex
 @misc{tchuindjang2026semantic,
-  title={Human-Correlated Semantic Evaluation of Multi-Turn Jailbreaking Attacks},
+  title={RefusalGuard: A One-Class Embedding-Based Method for Evaluating Multi-Turn Jailbreaking in Cybersecurity},
   author={Tchuindjang, Michael and Duran, Nathan. and Legg, Phil. and Medjek, Faiza.},
   year={2026},
   note={AI Safety and Cybersecurity Research}
