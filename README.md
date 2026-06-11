@@ -120,7 +120,6 @@ It does **not** provide tools to generate, optimize, or deploy jailbreaking atta
 ---
 
 ## Citation
-
 If you use this framework in your research, please cite:
 
 ```bibtex
