@@ -7,7 +7,7 @@
 [![Python 3.12+](https://img.shields.io/badge/python-3.12+-blue.svg)](https://www.python.org/downloads/release/python-31211/)
 [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
 
-# RefusalGuard: A One-Class Embedding-Based Method for Evaluating Multi-Turn Jailbreaking in Cybersecurity
+# RefusalGuard-M: A Semantic Refusal Manifold Framework for Evaluating Multi-Turn Jailbreaking in Cybersecurity
 
 ## Overview
 
@@ -98,8 +98,8 @@ A few sample results from our experiments are available in the [`examples`](exam
 
 ### Key Findings
 
-- 🚀 RefusalGuard outperforms **GPT-5** and **GPT-4** on jailbreak detection in linguistic adversarial settings.
-- 📉 RefusalGuard Reduces **inference costs by up to 3.7×** compared to embedding-based baselines.
+- 🚀 RefusalGuard-M outperforms **GPT-5** and **GPT-4** on jailbreak detection in linguistic adversarial settings.
+- 📉 RefusalGuard-M Reduces **inference costs by up to 3.7×** compared to embedding-based baselines.
 
 <p align="center" width="100%">
 <!-- <img src="assets/confusion_matrices_present_past_2x4.png" alt="CONFUSION MATRIXES" style="width: 100%; min-width: 300px; display: block; margin: auto;">
@@ -107,7 +107,7 @@ A few sample results from our experiments are available in the [`examples`](exam
 <img src="assets/inference_time_dual_axis.png" alt="inference time analysis" style="width: 100%; min-width: 300px; display: block; margin: auto;">
 </p>
 
-These results demonstrate that RefusalGuard is a **cost-effective and reproducible alternative** to human-aligned jailbreak evaluation.
+These results demonstrate that RefusalGuard-M is a **human-aligned cost-effective and reproducible alternative** to LLM evaluators.
 
 ---
 ## Reproducibility
@@ -128,7 +128,7 @@ If you use this framework in your research, please cite:
 ```bibtex
 @misc{tchuindjang2026semantic,
   title={RefusalGuard: A One-Class Embedding-Based Method for Evaluating Multi-Turn Jailbreaking in Cybersecurity},
-  author={Tchuindjang, Michael and Duran, Nathan. and Legg, Phil. and Medjek, Faiza.},
+  <!-- author={Tchuindjang, Michael and Duran, Nathan. and Legg, Phil. and Medjek, Faiza.}, -->
   year={2026},
   note={AI Safety and Cybersecurity Research}
 }
