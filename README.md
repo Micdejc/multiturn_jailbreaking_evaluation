@@ -13,7 +13,7 @@
 
 Reliable evaluation of multi-turn jailbreaking attacks is a critical yet unresolved challenge in Large Language Model (LLM) safety. Existing approaches frequently rely on **LLMs as automated judges** to reduce the cost of human evaluation. However, prior studies consistently reveal a **significant mismatch between LLM-based judgments and human assessments**, particularly when attackers exploit **linguistic nuances** such as verb tense manipulation.
 
-This repository introduces an **open-source, semantic similarity–based evaluation framework** for multi-turn jailbreaking attacks, designed to deliver **trustworthy, human-correlated, and low–false-negative evaluation** suitable for **high-stakes cybersecurity contexts**.
+This repository introduces an **open-source, semantic similarity–based evaluation framework** for multi-turn jailbreaking attacks, designed to deliver **human-correlated, and low–false-negative evaluation** suitable for **high-stakes cybersecurity contexts**.
 
 ### Core Idea
 
@@ -104,7 +104,7 @@ A few sample results from our experiments are available in the [`examples`](exam
 <p align="center" width="100%">
 <!-- <img src="assets/confusion_matrices_present_past_2x4.png" alt="CONFUSION MATRIXES" style="width: 100%; min-width: 300px; display: block; margin: auto;">
 --> 
-<img src="assets/inference_time_dual_axis.png" alt="inference time analysis" style="width: 100%; min-width: 300px; display: block; margin: auto;">
+<img src="assets/inference_time_dual_axis.pg" alt="inference time analysis" style="width: 100%; min-width: 300px; display: block; margin: auto;">
 </p>
 
 These results demonstrate that RefusalGuard-M is a **human-aligned cost-effective and reproducible alternative** to LLM evaluators.
@@ -126,14 +126,23 @@ It does **not** provide tools to generate, optimize, or deploy jailbreaking atta
 If you use this framework in your research, please cite:
 
 ```bibtex
-@misc{tchuindjang2026semantic,
-  title={RefusalGuard: A One-Class Embedding-Based Method for Evaluating Multi-Turn Jailbreaking in Cybersecurity},
-  <!-- author={Tchuindjang, Michael and Duran, Nathan. and Legg, Phil. and Medjek, Faiza.}, -->
+@misc{author2026semantic,
+  title={RefusalGuard-M: A Semantic Refusal Manifold Framework for Evaluating Multi-Turn Jailbreaking in Cybersecurity},
+  author={Author1, Author2, Author3},
   year={2026},
   note={AI Safety and Cybersecurity Research}
 }
 ```
-
+<!-- 
+```bibtex
+@misc{tchuindjang2026semantic,
+  title={RefusalGuard: A One-Class Embedding-Based Method for Evaluating Multi-Turn Jailbreaking in Cybersecurity},
+  author={Tchuindjang, Michael and Duran, Nathan. and Legg, Phil. and Medjek, Faiza.},
+  year={2026},
+  note={AI Safety and Cybersecurity Research}
+}
+```
+-->
 ## License
 <!-- Copyright (c) 2026, Michael Tchuindjang 
 All rights reserved. -->
