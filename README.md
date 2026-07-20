@@ -28,7 +28,7 @@ We treat **human judgment as the ground truth signal** and design semantic simil
 ---
 
 ## Updates
-- (XXXX-XX-XX) Insert any update here...
+- (2026-06-13) Submitted manuscript to Cybersecurity (Springer) journal.
 - (2026-01-08) Released the first version of the paper's dataset on GitHub.
 
 
@@ -104,7 +104,7 @@ A few sample results from our experiments are available in the [`examples`](exam
 <p align="center" width="100%">
 <!-- <img src="assets/confusion_matrices_present_past_2x4.png" alt="CONFUSION MATRIXES" style="width: 100%; min-width: 300px; display: block; margin: auto;">
 --> 
-<img src="assets/inference_time_dual_axis.pg" alt="inference time analysis" style="width: 100%; min-width: 300px; display: block; margin: auto;">
+<img src="assets/inference_time_dual_axis.png" alt="inference time analysis" style="width: 100%; min-width: 300px; display: block; margin: auto;">
 </p>
 
 These results demonstrate that RefusalGuard-M is a **human-aligned cost-effective and reproducible alternative** to LLM evaluators.
