@@ -1,5 +1,5 @@
 <p align="center" width="100%">
-<img src="assets/evaluation_system_architecture.png" alt="CYSIM-JUDGE" style="width: 100%; min-width: 300px; display: block; margin: auto;">
+<img src="assets/RefusalGuard-M.png" alt="RefusalGuard-M" style="width: 100%; min-width: 300px; display: block; margin: auto;">
 </p>
 
 <!-- [![Code License](https://img.shields.io/badge/Code%20License-Apache_2.0-green.svg)](https://github.com/tatsu-lab/stanford_alpaca/blob/main/LICENSE)
@@ -26,6 +26,11 @@ Instead of asking an LLM *“Is this a jailbreak?”*, this framework asks:
 > **“How semantically close is the model’s response to a disallowed intent, as assessed by human evaluators based on refusal behavior?”**
 
 We treat **human judgment as the ground truth signal** and design semantic similarity metrics that closely approximate it, across **multiple turns**, **implicit violations**, and **linguistic obfuscation**.
+
+<p align="center" width="100%">
+<img src="assets/evaluation_system_architecture.png" alt="RefusalGuard-M Architecture" style="width: 100%; min-width: 300px; display: block; margin: auto;">
+</p>
+
 
 <!-- This study was conducted by [Michael Tchuindjang](https://github.com/Micdejc), [Nathan Duran](https://github.com/NathanDuran), [Phil Legg](https://github.com/pa-legg), and [Faiza Medjek](https://sciprofiles.com/profile/3778378) as part of a PhD research project in Cybersecurity and Artificial Intelligence, supported by a studentship at the University of the West of England (UWE Bristol), UK. -->
 
