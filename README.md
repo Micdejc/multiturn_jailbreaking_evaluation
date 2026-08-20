@@ -28,7 +28,7 @@ Instead of asking an LLM *“Is this a jailbreak?”*, this framework asks:
 We treat **human judgment as the ground truth signal** and design semantic similarity metrics that closely approximate it, across **multiple turns**, **implicit violations**, and **linguistic obfuscation**.
 
 <p align="center" width="100%">
-<img src="assets/evaluation_system_architecture.png" alt="RefusalGuard-M Architecture" style="width: 100%; min-width: 300px; display: block; margin: auto;">
+<img src="assets/evaluation_system_architecture.png" alt="RefusalGuard-M Architecture" style="width: 70%; min-width: 300px; display: block; margin: auto;">
 </p>
 
 
