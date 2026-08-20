@@ -128,6 +128,8 @@ A note for hardware: all experiments we run use one or multiple NVIDIA GeForce R
 This repository is intended **strictly for defensive AI safety research**.  
 It does **not** provide tools to generate, optimize, or deploy jailbreaking attacks.
 
+**Notice:** If you would like to contribute to this open-source framework, feel free to [contact me](mailto:micdejc@gmail.com).
+
 ---
 
 ## Citation
