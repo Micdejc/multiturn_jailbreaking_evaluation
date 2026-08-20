@@ -91,13 +91,13 @@ Evaluations were conducted on **widely used adversarial benchmarks**:
 You can use this framework to evaluate and moderate LLM responses for multi-turn jailbreaking in two ways:
 
 1. **Automated Moderation with Existing LLM Evaluators**  
-   Follow the instructions in [`run_moderator.ipynb`](run_moderator.ipynb) to moderate LLM responses using standard automated methods.
+   Follow the instructions in [`launch_moderation.ipynb`](launch_moderation.ipynb) to moderate LLM responses using standard automated methods.
 
-2. **Semantic Similarity-Based Evaluation (SIM)**  
-   Follow the instructions in [`run_evaluator.ipynb`](run_evaluator.ipynb) to evaluate LLM responses based on semantic similarity, which provides human-aligned scoring.
+2. **Semantic Similarity-Based Evaluation**  
+   Follow the instructions in [`multi_turn_semantic_assessment.ipynb`](multi_turn_semantic_assessment.ipynb) to evaluate LLM responses based on semantic similarity, which provides human-aligned scoring.
 
-📂 **Examples:**  
-A few sample results from our experiments are available in the [`examples`](examples) folder for reference.
+📂 **Results:**  
+Results from our experiments are available in the [`results`](results) folder for reference.
 
 ### Key Findings
 
@@ -131,16 +131,6 @@ It does **not** provide tools to generate, optimize, or deploy jailbreaking atta
 ## Citation
 
 If you use this framework in your research, please cite:
-
-```bibtex
-@misc{author2026semantic,
-  title={RefusalGuard-M: A Semantic Refusal Manifold Framework for Evaluating Multi-Turn Jailbreaking in Cybersecurity},
-  author={Author1, Author2, Author3},
-  year={2026},
-  note={AI Safety and Cybersecurity Research}
-}
-```
-<!-- 
 ```bibtex
 @article{tchuindjang2026refusalguard-m,
   author  = {Tchuindjang, Michael and Duran, Nathan. and Legg, Phil. and Medjek, Faiza.},
@@ -152,8 +142,8 @@ If you use this framework in your research, please cite:
   doi     = {10.1186/s42400-026-00633-z}
 }
 ```
--->
+
 ## License
-<!-- Copyright (c) 2026, Michael Tchuindjang 
-All rights reserved. -->
-Copyright (c) 2026, All rights reserved.
+Copyright (c) 2026, Michael Tchuindjang 
+All rights reserved.
+
