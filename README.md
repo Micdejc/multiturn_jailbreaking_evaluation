@@ -115,7 +115,7 @@ Results from our experiments are available in the [`results`](results) folder fo
 <p align="center" width="100%">
 <!-- <img src="assets/confusion_matrices_present_past_2x4.png" alt="CONFUSION MATRIXES" style="width: 100%; min-width: 300px; display: block; margin: auto;">
 --> 
-<img src="assets/inference_time_dual_axis.png" alt="inference time analysis" style="width: 70%; min-width: 300px; display: block; margin: auto;">
+<img src="assets/inference_time_dual_axis.png" alt="inference time analysis" style="width: 60%; min-width: 300px; display: block; margin: auto;">
 </p>
 
 These results demonstrate that RefusalGuard-M is a **human-aligned cost-effective and reproducible alternative** to LLM evaluators.
