@@ -29,7 +29,7 @@ We treat **human judgment as the ground truth signal** and design semantic simil
 
 ## Updates
 - (2026-08-19) The paper is now officially available! Check it out [here](https://link.springer.com/article/10.1186/s42400-026-00633-z).
-- (2026-06-13) Submitted manuscript to Cybersecurity (Springer) journal.
+- (2026-06-13) Submitted manuscript to Q1 Cybersecurity (Springer) journal.
 - (2026-01-08) Released the first version of the paper's dataset on GitHub.
 
 
