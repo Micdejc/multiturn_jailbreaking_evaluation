@@ -141,11 +141,14 @@ If you use this framework in your research, please cite:
 ```
 <!-- 
 ```bibtex
-@misc{tchuindjang2026semantic,
-  title={RefusalGuard: A One-Class Embedding-Based Method for Evaluating Multi-Turn Jailbreaking in Cybersecurity},
-  author={Tchuindjang, Michael and Duran, Nathan. and Legg, Phil. and Medjek, Faiza.},
-  year={2026},
-  note={AI Safety and Cybersecurity Research}
+@article{tchuindjang2026refusalguard-m,
+  author  = {Tchuindjang, Michael and Duran, Nathan. and Legg, Phil. and Medjek, Faiza.},
+  title   = {RefusalGuard-M: A scalable human--machine framework for multi-turn LLM jailbreak evaluation via semantic refusal manifold modeling},
+  journal = {Cybersecurity},
+  volume  = {9},
+  pages   = {206},
+  year    = {2026},
+  doi     = {10.1186/s42400-026-00633-z}
 }
 ```
 -->
