@@ -54,7 +54,7 @@ pip install jupyter pandas sentence-transformers xgboostpip
 ```
 
 ## Human Annotation
-The ground truth for our experiments was created by a team of cybersecurity experts. They reviewed and provided judgments on a curated set of experimental conversations to ensure high-quality, reliable labels.  
+The ground truth for our experiments was created by a team of 15 cybersecurity experts. They reviewed and provided judgments on a curated set of experimental conversations to ensure high-quality, reliable labels.  
 
 The shared labeling guidelines and rules followed by the experts can be found [here](https://github.com/Micdejc/jailbreaking_assessment).  
 
