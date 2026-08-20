@@ -11,13 +11,11 @@
 
 ## Overview
 
-This is the official repository for "[RefusalGuard-M: A scalable human--machine framework for multi-turn LLM jailbreak evaluation via semantic refusal manifold modeling](https://doi.org/10.1186/s42400-026-00633-z)" by [Michael Tchuindjang](https://github.com/Micdejc), [Nathan Duran](https://github.com/NathanDuran), [Phil Legg](https://github.com/pa-legg), and [Faiza Medjek](https://sciprofiles.com/profile/3778378). 
-
 Reliable evaluation of multi-turn jailbreaking attacks is a critical yet unresolved challenge in Large Language Model (LLM) safety. Existing approaches frequently rely on **LLMs as automated judges** to reduce the cost of human evaluation. However, prior studies consistently reveal a **significant mismatch between LLM-based judgments and human assessments**, particularly when attackers exploit **linguistic nuances** such as verb tense manipulation.
 
-This repository introduces an **open-source, semantic similarity–based evaluation framework** for multi-turn jailbreaking attacks, designed to deliver **human-correlated, and low–false-negative evaluation** suitable for **high-stakes cybersecurity contexts**.
+[RefusalGuard-M](https://doi.org/10.1186/s42400-026-00633-z) is **open-source, semantic similarity–based evaluation framework** for multi-turn jailbreaking attacks, designed to deliver **human-correlated, and low–false-negative evaluation** suitable for **high-stakes cybersecurity contexts**.
 
-This study was conducted as part of a PhD research project in Cybersecurity and Artificial Intelligence, supported by a studentship at the University of the West of England (UWE Bristol) in the UK.
+This study was conducted by [Michael Tchuindjang](https://github.com/Micdejc), [Nathan Duran](https://github.com/NathanDuran), [Phil Legg](https://github.com/pa-legg), and [Faiza Medjek](https://sciprofiles.com/profile/3778378) as part of a PhD research project in Cybersecurity and Artificial Intelligence, supported by a studentship at the University of the West of England (UWE Bristol), UK.
 
 ### Core Idea
 
@@ -30,9 +28,6 @@ We treat **human judgment as the ground truth signal** and design semantic simil
 <p align="center" width="100%">
 <img src="assets/evaluation_system_architecture.png" alt="RefusalGuard-M Architecture" style="width: 70%; min-width: 300px; display: block; margin: auto;">
 </p>
-
-
-<!-- This study was conducted by [Michael Tchuindjang](https://github.com/Micdejc), [Nathan Duran](https://github.com/NathanDuran), [Phil Legg](https://github.com/pa-legg), and [Faiza Medjek](https://sciprofiles.com/profile/3778378) as part of a PhD research project in Cybersecurity and Artificial Intelligence, supported by a studentship at the University of the West of England (UWE Bristol), UK. -->
 
 ---
 
