@@ -63,6 +63,8 @@ The ground truth for our experiments was created by a team of 15 cybersecurity e
 
 The shared labeling guidelines and rules followed by the experts can be found [here](https://github.com/Micdejc/jailbreaking_assessment).  
 
+The RefusalGuard-M datasets are available on [Hugging Face](https://huggingface.co/datasets/Micdejc/refusalguard-m), including the [**Refusal Reference Set**](Refusal_reference_set) and [**Experiment Results**](results).
+
 ---
 
 ## LLM Evaluators
