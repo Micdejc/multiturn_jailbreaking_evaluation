@@ -102,6 +102,7 @@ You can use this framework to evaluate and moderate LLM responses for multi-turn
    Follow the instructions in [`multi_turn_semantic_assessment.ipynb`](multi_turn_semantic_assessment.ipynb) to evaluate LLM responses based on semantic similarity, which provides human-aligned scoring.
 
 📂 **Results:**
+
 The RefusalGuard-M datasets are available on [**Hugging Face**](https://huggingface.co/datasets/Micdejc/refusalguard-m), including the [Refusal Reference Set](Refusal_reference_set) and [Experiment Results](results).
 ### Key Findings
 
