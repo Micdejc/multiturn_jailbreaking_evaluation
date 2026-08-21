@@ -63,8 +63,6 @@ The ground truth for our experiments was created by a team of 15 cybersecurity e
 
 The shared labeling guidelines and rules followed by the experts can be found [here](https://github.com/Micdejc/jailbreaking_assessment).  
 
-The RefusalGuard-M datasets are available on [Hugging Face](https://huggingface.co/datasets/Micdejc/refusalguard-m), including the [**Refusal Reference Set**](Refusal_reference_set) and [**Experiment Results**](results).
-
 ---
 
 ## LLM Evaluators
@@ -103,9 +101,8 @@ You can use this framework to evaluate and moderate LLM responses for multi-turn
 2. **Semantic Similarity-Based Evaluation**  
    Follow the instructions in [`multi_turn_semantic_assessment.ipynb`](multi_turn_semantic_assessment.ipynb) to evaluate LLM responses based on semantic similarity, which provides human-aligned scoring.
 
-📂 **Results:**  
-Results from our experiments are available in the [`results`](results) folder for reference.
-
+📂 **Results:**
+The RefusalGuard-M datasets are available on [**Hugging Face**](https://huggingface.co/datasets/Micdejc/refusalguard-m), including the [Refusal Reference Set](Refusal_reference_set) and [Experiment Results](results).
 ### Key Findings
 
 - 🚀 RefusalGuard-M outperforms **GPT-5** and **GPT-4** on jailbreak detection in linguistic adversarial settings.
